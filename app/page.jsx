@@ -11,7 +11,7 @@ const Products = async () => {
       <h1 className='flex justify-center mt-10 uppercase font-bold text-4xl'>All Products</h1>
       <section className='mx-auto container mt-[100px] p-4'>
 
-        <div className="flex flex-wrap justify-between -m-4">
+        <div className="flex flex-wrap justify-between -m-4 p-4">
           {respone.products.map((item, index) => (
             <Card key={item.id} item={item} />
           ))}
